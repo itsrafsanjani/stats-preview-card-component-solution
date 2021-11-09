@@ -5,13 +5,56 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tailwind HTML Boilerplate</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Stats preview card component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca:wght@200&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="./css/app.css" />
 </head>
 
-<body class="flex flex-col justify-center items-center min-h-screen bg-gray-200 font-sans">
-  <div id="app">
-    <h1 class="text-4xl">Tailwind HTML Boilerplate</h1>
+<body class="flex flex-col justify-center items-center min-h-screen bg-veryDarkBlue text-gray-50">
+
+  <div class="flex flex-col-reverse md:flex-row bg-darkDesaturatedBlue md:w-8/12 m-8 md:m-0 rounded-lg">
+    <div class="flex flex-col justify-between xl:p-16 lg:p-8 p-5 md:my-0 my-5 flex-1 md:text-left text-center">
+      <div class="md:mb-20 mb-5">
+        <h1 class="md:mb-8 mb-5 font-bold text-4xl">
+          Get <span class="text-softViolet">insights</span> that help your business grow.
+        </h1>
+
+        <p class="font-extralight leading-relaxed md:mr-20 text-sm">
+          Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and
+          overall efficiency.
+        </p>
+      </div>
+
+      <div class="md:flex md:space-y-0 space-y-5 justify-between md:mr-20">
+        <div>
+          <h3 class="text-2xl uppercase font-bold">10k+</h3> <span
+            class="font-extralight leading-relaxed tracking-wider uppercase text-sm">companies</span>
+        </div>
+        <div>
+          <h3 class="text-2xl uppercase font-bold">314</h3> <span
+            class="font-extralight leading-relaxed tracking-wider uppercase text-sm">templates</span>
+        </div>
+        <div>
+          <h3 class="text-2xl uppercase font-bold">12m+</h3> <span
+            class="font-extralight leading-relaxed tracking-wider uppercase text-sm">queries</span>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="bg-softViolet md:rounded-r-lg md:rounded-t-none rounded-t-lg flex-1">
+      <img class="object-cover md:rounded-r-lg md:rounded-t-none rounded-t-lg h-full w-full mix-blend-overlay"
+        src="./images/image-header-desktop.jpg" alt="image header">
+    </div>
+  </div>
+
+  <div class="attribution pt-10">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/itsrafsanjani" target="_blank">Md Rafsan Jani Rafin</a>.
   </div>
 </body>
 

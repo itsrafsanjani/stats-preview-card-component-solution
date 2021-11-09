@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.attribution {
+  font-size: 12px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 100%, 81%);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Inter", sans-serif !important;
+}
+
+p,
+h4,
+h5,
+h6 {
+  font-family: "Lexend Deca", sans-serif !important;
+}
